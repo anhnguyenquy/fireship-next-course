@@ -9,6 +9,7 @@ export const PostList = (): JSX.Element => {
   return (
     <>
       <h1>Manage your Posts</h1>
+      {/* @ts-ignore */}
       <PostFeed posts={posts} admin />
     </>
   )
